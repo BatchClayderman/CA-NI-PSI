@@ -634,7 +634,7 @@ public class PARS
 		elements[2] = PARS.combine(ele_array_3).getImmutable();
 		return PARS.combine(elements);
 	}
-
+	
 	public static Element e(Element T, Element S)
 	{
 		return T.add(S); // just an example
